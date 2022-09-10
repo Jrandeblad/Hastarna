@@ -74,8 +74,8 @@ img {
 }
 
 #hast {
-    height:200px;
-    width:200px;
+    height:500px;
+    width:500px;
 }
 
 .container {
@@ -166,7 +166,7 @@ img {
 }
 
 .pictureitem {
-    width: 200px;
+    width: 25%;
     padding-bottom: 0%;
     /* Same as width, sets height */
     margin-bottom: 2%;
@@ -209,15 +209,16 @@ img {
 }
 
 .hastitemside {
-    width: 15%;
+    width: 10%;
 }
 
 .picturecontainer2 {
     flex-direction: column;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     margin-bottom: 20px;
-    height: 310px;
     border-radius: 2%;
+    width: 25%;
+    height: 610px;
 
 }
 
