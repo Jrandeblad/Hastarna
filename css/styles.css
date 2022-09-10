@@ -1,6 +1,6 @@
 @font-face {
     font-family: spacegrotesk;
-    src: url(https: //jrandeblad.github.io/Hastarna/fonts/SpaceGrotesk-Regular.otf);
+    src: url(https://jrandeblad.github.io/Hastarna/fonts/SpaceGrotesk-Regular.otf);
 }
 
 .headercontainer {
@@ -14,6 +14,10 @@
     background: #d8b99e;
     text-align: center;
     line-height: 125px;
+}
+
+.headeritemside {
+    width: 10%
 }
 
 .headeritem-center {
@@ -59,9 +63,9 @@ li:last-child {
 
 .centerimg {
     width: 75%;
-    height: 350px;
+    height: 400px;
     object-fit: cover;
-    object-position: 12rem 40%;
+    object-position: 12rem 38%;
 }
 
 img {
@@ -85,25 +89,26 @@ img {
     width: 32%;
     padding-bottom: 5%;
     /* 32:18, i.e. 16:9 */
-    margin-bottom: 2%;
+    margin-bottom: 0%;
     /* (100-32*3)/2 */
     background: #aeb885;
     font-family: spacegrotesk, Arial, Sans-serif;
 }
 .item > h1 {
-    font-size: 150px;
+    font-size: 200px;
     color: white;
     text-align: center;
     margin-top: 20px;
     margin-left: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .item > p {
-    width: 500px;
+    width: 650px;
     margin-left: 41%;
     font-size: large;
-    margin-bottom: 20px;
+    margin-bottom:80px;
+    margin-top: 30px;
 }
 
 .itemside {
@@ -224,7 +229,7 @@ img {
 }
 
 #hastinfo {
-    background:#b1cbe4;
+    background:#aeb885;
     font-family: 'Times New Roman', Times, serif;
     border: none;
     border-top-left-radius: 999px;
