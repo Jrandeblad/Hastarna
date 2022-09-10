@@ -1,0 +1,254 @@
+@font-face {
+    font-family: spacegrotesk;
+    src: url(/fonts/SpaceGrotesk-Regular.otf);
+}
+
+.headercontainer {
+    display: flex;
+}
+
+.headeritem {
+    height: 80px;
+    width: 80px;
+    /* A fixed width as the default */
+    background: #d8b99e;
+    text-align: center;
+    line-height: 125px;
+}
+
+.headeritem-center {
+    flex-grow: 1;
+    /* Set the middle element to grow and stretch */
+    background: #d8b99e;
+    height: 80px;
+    color: white;
+}
+
+.headeritem+.headeritem {
+    margin-left: 2%;
+}
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    flex-direction: row;
+    font-family: sans-serif;
+    justify-content: flex-end;
+
+}
+
+li:nth-child(1) {
+    font-family: cursive;
+    font-size: 1.6rem;
+    margin-left: 0;
+    margin-right: auto;
+}
+li {
+    line-height: 65px;
+    font-size: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+li:last-child {
+    margin-right: 20px;
+}
+
+.centerimg {
+    width: 75%;
+    height: 350px;
+    object-fit: cover;
+    object-position: 12rem 40%;
+}
+
+img {
+    height: 55px;
+    width: 55px;
+}
+
+#hast {
+    height:200px;
+    width:200px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    flex: 1;
+    width: 32%;
+    padding-bottom: 5%;
+    /* 32:18, i.e. 16:9 */
+    margin-bottom: 2%;
+    /* (100-32*3)/2 */
+    background: #aeb885;
+    font-family: spacegrotesk, Arial, Sans-serif;
+}
+.item > h1 {
+    font-size: 150px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.item > p {
+    width: 500px;
+    margin-left: 41%;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.itemside {
+    width: 10%;
+}
+
+.menu {
+    position: relative;
+}
+.menu:hover .content a{
+    display:block;
+}
+.btn {
+    padding: 8px 12px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    padding: 10px;
+    background: transparent;
+    border-color: white;
+    color: white;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.btn:hover {
+    color: #d8b99e;
+    background: white;
+}
+
+.content {
+    min-width: 200px;
+    position: absolute;
+}
+
+.content a{
+    text-decoration: none;
+    color: white;
+    background: #d8b99e;
+    font-size: 18px;
+    padding: 8px 2px;
+    display: none;
+    transition: 0.3s all;
+}
+
+.content a:hover{
+    color: #d8b99e;
+    background: white;
+}
+
+.picturecontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pictureitem {
+    width: 200px;
+    padding-bottom: 0%;
+    /* Same as width, sets height */
+    margin-bottom: 2%;
+    /* (100-32*3)/2 */
+    position: relative;
+    align-items: center;
+}
+
+.hastcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.hastitem {
+    flex: 1;
+    width: 25%;
+    padding-bottom: 5%;
+    margin-top: 50px;
+    /* 32:18, i.e. 16:9 */
+    margin-bottom: 2%;
+    /* (100-32*3)/2 */
+    font-family: spacegrotesk, Arial, Sans-serif;
+}
+
+.hastitem>h1 {
+    font-size: 150px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.hastitem>p {
+    width: 500px;
+    margin-left: 41%;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.hastitemside {
+    width: 15%;
+}
+
+.picturecontainer2 {
+    flex-direction: column;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    height: 310px;
+    border-radius: 2%;
+
+}
+
+#hasttext {
+    font-family: spacegrotesk, Arial, Sans-serif;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+
+#hastinfo {
+    background:#b1cbe4;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    border-top-left-radius: 999px;
+    border-top-right-radius: 999px;
+    border-bottom-left-radius: 999px;
+    border-bottom-right-radius: 999px;
+    margin-left: 3px;
+    margin-top: 20px;
+    margin-right: 4px;
+    padding-right:0px;
+    margin-top: 5px;
+    box-shadow: 1px 2px #888888;
+    align-items: stretch;
+}
+
+#hastinfobild {
+    height: 10px;
+    width: 10px;
+    margin-right: 3px;
+}
+
+#hastinfodiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
