@@ -68,7 +68,14 @@ li:last-child {
     object-position: 12rem 38%;
 }
 
-img {
+.centerimg2 {
+    width: 32%;
+    height: 400px;
+    object-fit: cover;
+    object-position: 12rem 50%;
+}
+
+.smallimg {
     height: 55px;
     width: 55px;
 }
@@ -142,6 +149,7 @@ img {
 .content {
     min-width: 200px;
     position: absolute;
+    z-index: 100;
 }
 
 .content a{
@@ -196,7 +204,7 @@ img {
     font-size: 150px;
     color: white;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-left: 100px;
     margin-bottom: 20px;
 }
@@ -258,3 +266,77 @@ img {
     flex-wrap: wrap;
 }
 
+.styrelsecontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+}
+
+.styrelseitem {
+    flex: 1;
+    width: 32%;
+    padding-bottom: 8%;
+    margin-bottom: 0%;
+    background: #aeb885;
+    font-family: spacegrotesk, Arial, Sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.styrelseitem>h1 {
+    font-size: 200px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+.styrelseitem>p {
+    width: 650px;
+    margin-left: 41%;
+    font-size: large;
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+
+.styrelseitemside {
+    width: 10%;
+}
+
+.styrelsecenter {
+    width: 80%;
+    background: #aeb885;
+    font-family: spacegrotesk, Arial, Sans-serif;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-size: 100px;
+}
+
+.styrelse {
+    position:absolute;
+}
+
+.styrelseitem > p {
+    width: 50px;
+}
+
+.styrelseitem:hover > p {
+    z-index: 100;
+    color: white;
+    font-size:x-large;
+    font-family: spacegrotesk, Arial, sans-serif;
+    width: 200px;
+    text-align: center;
+}
+
+.styrelse:hover {
+    opacity: 0.7;
+    transition: 0.1s;
+}
+
+#ritning {
+    margin-left: 25%;
+}
